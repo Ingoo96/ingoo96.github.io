@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <!-- saved from url=(0178)file:///C:/Users/Administrator/Downloads/html_%EC%88%98%EC%A0%95/%EC%83%81%EB%8B%B4%ED%9A%8C%20%EC%9E%A5%EA%B8%B0%EA%B4%80%EB%A6%AC%20%EC%8B%9C%ED%8A%B8%20%EA%B5%90%EC%9C%A1.html -->
-<html lang="ko">
-    <head>
+<html lang="ko"><head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>상담회 장기관리 시트 교육</title>
@@ -318,7 +317,7 @@
     <body>
         <div class="presentation">
             <!-- Slide 1: 표지 -->
-            <div class="slide cover-slide active">
+            <div class="slide cover-slide">
                 <h1>상담회 장기관리 시트 교육</h1>
                 <div class="subtitle">상담회 유입 고객 관리 표준화</div>
                 <div class="box" style="margin-top: 50px; max-width: 700px;">
@@ -380,7 +379,7 @@
                     <h3>✗ 관리 제외 대상</h3>
                     <div class="box">
                         <ul>
-                            <li>수술일 확정 및 관리 종료된 케이스 (완료 처리)</li>
+                            <li>수술일 확정 및 관리 종료된 케이스 (완료여부 → 완료 처리)</li>
                         </ul>
                     </div>
                 </div>
@@ -429,10 +428,10 @@
                         <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px;">
                             <div>
                                 <ul>
-                                    <li>예시 (M)</li>
-                                    <li>index (JP-000, JP-15...)</li>
+                                    <li>실(SEA/M)</li>
+                                    <li>index (JP-000)</li>
                                     <li>국가 (일본)</li>
-                                    <li>D/A (A, A+, B)</li>
+                                    <li>D/A (A, A+, B) : 다이렉트 에이전시 구분</li>
                                 </ul>
                             </div>
                             <div>
@@ -440,7 +439,7 @@
                                     <li>에이전시명</li>
                                     <li>환자명</li>
                                     <li>G-IDX</li>
-                                    <li>상담회일자</li>
+                                    <li>상담회명, 상담회 일자</li>
                                 </ul>
                             </div>
                         </div>
@@ -468,7 +467,7 @@
                             </div>
                             <div style="background: rgba(255, 255, 255, 0.1); padding: 15px; border-radius: 8px;">
                                 <strong style="color: #ffd700;">미확정 유형별 분포</strong>
-                                <p style="font-size: 16px; margin-top: 8px;">A: 104, A+: 0, B: 0</p>
+                                <p style="font-size: 16px; margin-top: 8px;">A: 104, A+1: 0, B: 0</p>
                             </div>
                             <div style="background: rgba(255, 255, 255, 0.1); padding: 15px; border-radius: 8px;">
                                 <strong style="color: #ffd700;">완료여부</strong>
@@ -499,24 +498,24 @@
                                 <td>
                                     <strong>A</strong>
                                 </td>
-                                <td>예약 O / 수술일 미확정</td>
+                                <td>예약금 O / 수술일 미확정</td>
                             </tr>
                             <tr>
                                 <td>
-                                    <strong>A+</strong>
+                                    <strong>A+1</strong>
                                 </td>
-                                <td>예약 O / 수술일 1년 이상 장기</td>
+                                <td>예약금 O / 수술일 1년 이상 장기</td>
                             </tr>
                             <tr>
                                 <td>
                                     <strong>B</strong>
                                 </td>
-                                <td>예약 X / 수술 일정 없음</td>
+                                <td>예약금 X / 수술 일정 없음</td>
                             </tr>
                         </tbody>
                     </table>
                     <div class="box" style="margin-top: 30px;">
-                        <strong>→ 유형에 따라 컨택 전략과 주기 달라짐</strong>
+                        <strong>→ 유형에 따라 컨택 전략과 주기 달라질 수 있음</strong>
                     </div>
                 </div>
                 <div class="slide-number">7 / 21</div>
@@ -544,7 +543,7 @@
                                     <strong>다음 액션</strong>
                                 </li>
                                 <li>기준일, 마지막 컨택일, 컨택주기, 다음 컨택일</li>
-                                <li>담당자 / 팀장검수 / 완료 여부</li>
+                                <li>담당자 / 팀장검수</li>
                             </ul>
                         </div>
                     </div>
@@ -552,7 +551,7 @@
                 <div class="slide-number">8 / 21</div>
             </div>
             <!-- Slide 9: 기준일/마지막 컨택일 -->
-            <div class="slide">
+            <div class="slide active">
                 <div class="content-area">
                     <h2>기준일 / 마지막 컨택일</h2>
                     <div class="info-grid">
@@ -610,11 +609,11 @@
                             <h3 style="font-size: 24px;">드롭다운 선택값</h3>
                             <div class="box">
                                 <ul style="font-size: 18px;">
-                                    <li>수술일 확정</li>
+                                    <li>수술일 확정 : 완료 여부 판단 대상</li>
                                     <li>수술일 부분 확정</li>
                                     <li>수술일 미정 유지(보류)</li>
-                                    <li>취소</li>
-                                    <li>타병원 결정</li>
+                                    <li>취소 : 완료 여부 판단 대상</li>
+                                    <li>타병원 결정 : 완료 여부 판단 대상</li>
                                     <li>재상담 필요</li>
                                     <li>미응답 / 연락불가</li>
                                     <li>기타</li>
@@ -664,7 +663,7 @@
                                     <li>개인일정</li>
                                     <li>심리/의사결정</li>
                                     <li>의료적 준비/컨디션</li>
-                                    <li>병원/의사/술종 재검토</li>
+                                    <li>병원/의사/옵션 관련 재검토</li>
                                     <li>커뮤니케이션 문제</li>
                                     <li>원장 스케줄 지연</li>
                                     <li>기타</li>
@@ -743,7 +742,7 @@
                         </div>
                         <div class="info-card">
                             <h4>팀장검수</h4>
-                            <p style="font-size: 18px; line-height: 1.6;">확인 여부</p>
+                            <p style="font-size: 18px; line-height: 1.6;">확인 여부 체크</p>
                         </div>
                     </div>
                 </div>
@@ -758,11 +757,11 @@
                         <ul>
                             <li>수술 확정</li>
                             <li>타병원 결정</li>
-                            <li>관리 종료 판단</li>
+                            <li>취소</li>
                         </ul>
                     </div>
                     <div class="box" style="margin-top: 30px;">
-                        <strong>→ 완료 선택 시 Summary에서 제외됨</strong>
+                        <strong>→ 완료여부에 "완료" 선택 시 Summary 완료여부 반영</strong>
                     </div>
                 </div>
                 <div class="slide-number">18 / 21</div>
@@ -795,7 +794,7 @@
                             </li>
                             <li>
                                 <span class="step-number">6</span>
-                                완료 시 종료 처리
+                                최종 컨택 결과 완료시 관리 종료 처리 (완료 처리)
                             </li>
                         </ul>
                     </div>
@@ -810,12 +809,14 @@
                         ⚠️ <strong>드롭다운 임의 수정 금지</strong>
                     </div>
                     <div class="warning">
-                        ⚠️ <strong>결과/다음액션 공란 금지</strong>
+                        ⚠️ <strong>기준일 / 컨택 결과 / 다음액션 공란 금지</strong>
                     </div>
                     <div class="warning">
                         ⚠️ <strong>완료 전 팀장 검수 권장</strong>
                     </div>
-                </div>
+                <div class="warning">
+                        ⚠️ <strong>완료 전 팀장 검수 권장</strong>
+                    </div></div>
                 <div class="slide-number">20 / 21</div>
             </div>
             <!-- Slide 21: 마무리 -->
@@ -825,14 +826,13 @@
                     <div class="quote">
                         상담회 이후 고객을 놓치지 않기 위한<br>
                         통합 관리 시트입니다.
-<br>- 글로벌 지원팀 데이터파트
-                    </div>
+</div>
                 </div>
                 <div class="slide-number">21 / 21</div>
             </div>
         </div>
         <div class="controls">
-            <button id="prevBtn" onclick="changeSlide(-1)" disabled="">◀ 이전</button>
+            <button id="prevBtn" onclick="changeSlide(-1)">◀ 이전</button>
             <button id="nextBtn" onclick="changeSlide(1)">다음 ▶</button>
         </div>
         <script>
@@ -875,5 +875,7 @@
             // 초기 버튼 상태 설정
             document.getElementById('prevBtn').disabled = true;
         </script>
+    
+
     </body>
 </html>
